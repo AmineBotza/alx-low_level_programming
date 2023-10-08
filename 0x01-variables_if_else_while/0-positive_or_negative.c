@@ -4,7 +4,10 @@
 
 /**
  *main - Entry point
- *if = the number is positive
+ *
+ *Description: Generates a random number and checks.
+ *
+ *Return: Always 0 (success)
  */
 int main(void)
 {
