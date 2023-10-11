@@ -1,6 +1,6 @@
 #include"main.h"
 /**
-  *int _isalpha - Checks for alpha charaters
+  *_isalpha - Checks for alpha charaters
   *
   *@c: The character to be checked
   *
