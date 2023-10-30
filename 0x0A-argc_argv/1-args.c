@@ -8,19 +8,13 @@
   */
 int main(int argc, char *argv[])
 {
-	if (argc > 1)
+	if (argc == 1)
 	{
-		int i;
-
-		for (i = 1; i < argc; i++)
-		{
-			printf("%s\n", argv[i]);
-		}
-		printf("Number of arguments : %d\n", argc - 1);
+		printf("0\n");
 	}
 	else
 	{
-		printf("No arguments provided.\n");
+		printf("%d\n", argc - 1);
 	}
 	return (0);
 }
